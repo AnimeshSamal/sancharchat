@@ -70,6 +70,8 @@ io.on('connection', socket => {
   });
 });
 
+const hostname='0.0.0.0';
+
 const PORT = process.env.PORT || 8000;
 
-server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+server.listen(PORT, () => console.log(`Server running on port ${PORT} and http://${hostname}`));
