@@ -70,7 +70,7 @@ io.on('connection', socket => {
   });
 });
 
-const hostname='0.0.0.0';
+// const hostname='0.0.0.0';
 
 const PORT = process.env.PORT || 8000;
 
